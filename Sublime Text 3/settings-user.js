@@ -1,4 +1,7 @@
 {
+  // Trims excess whitespace on save
+  "trim_trailing_white_space_on_save": true,
+ 
   // Bold folders in the sidebar
   "bold_folder_labels": true,
 
