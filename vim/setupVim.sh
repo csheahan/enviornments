@@ -1,10 +1,9 @@
 #!/bin/bash
 
-mkdir .vim
-cd .vim
-mkdir backup
-mkdir tmp
-mkdir undo
-cd ..
+mkdir ~/.vim
+mkdir ~/.vim/backup
+mkdir ~/.vim/tmp
+mkdir ~/.vim/undo
+cp .vimrc ~/
 
 echo 'Vim directories set up'
